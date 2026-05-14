@@ -15,7 +15,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Miki[/B][/COLOR]Wizard'
 BUILDERNAME = 'MikiWizard'
-EXCLUDES = [ADDON_ID, 'repository.mikiwizard']
+EXCLUDES = [ADDON_ID, 'repository.mikifp']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://falkpedersen.dk/builds/Builds.txt'
 # How often you would like it to check for build updates in days
@@ -98,9 +98,10 @@ AUTOINSTALL = 'Yes'
 # Addon ID for the repository
 REPOID = 'repository.openwizard'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/mikifp/repository.mikifp/master/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/repository.openwizard/'
+
+REPOZIPURL = 'https://raw.githubusercontent.com/mikifp/repository.mikifp/master/repo/zips/plugin.program.mikiwizard/'
 #########################################################
 
 #########################################################
